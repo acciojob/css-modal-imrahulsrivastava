@@ -10,7 +10,7 @@ body {
 }
 
 #openModal {
-  background-color: white;
+  background-color: #e7e7e7;
   border-radius: 10px;
   border: 1px solid gray;
   font-size: 1.3rem;
@@ -23,8 +23,7 @@ body {
   align-items: center;
   background-color: #6f717099;
   bottom: 0;
-  display: flex;
-  visibility: none;
+  display: none;
   height: 100vh;
   justify-content: center;
   left: 0;
