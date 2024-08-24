@@ -1,1 +1,71 @@
-/*  your css code here. If applicable */
+:root {
+  --button-dimension: 25px;
+}
+
+body {
+  align-items: center;
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+}
+
+#openModal {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  position: fixed;
+  top: 50px;
+}
+
+.modal {
+  align-items: center;
+  background-color: #6f717099;
+  bottom: 0;
+  display: none;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.modal-content {
+  background-color: #e7e7e7;
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.modal-header {
+  align-items: center;
+  background-color: #00ca58;
+  border-radius: 15px;
+  color: #e7e7e7;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  width: calc(100vw - 200px);
+}
+
+.modal-header,
+.modal-body {
+  font-size: 1.2rem;
+  padding-inline: 15px;
+}
+
+.close-modal {
+  background-color: #e7e7e7;
+  border-radius: 50%;
+  border: none;
+  bottom: 40px;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: var(--button-dimension);
+  position: absolute;
+  right: 20px;
+  width: var(--button-dimension);
+}
