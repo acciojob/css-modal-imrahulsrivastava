@@ -23,7 +23,8 @@ body {
   align-items: center;
   background-color: #6f717099;
   bottom: 0;
-  display: none;
+  display: flex;
+  visibility: none;
   height: 100vh;
   justify-content: center;
   left: 0;

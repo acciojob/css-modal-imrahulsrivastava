@@ -1,10 +1,10 @@
 function toggleModal() {
   const modal = document.querySelector(".modal");
   if (isModalOpen) {
-    modal.style.display = "none";
+    modal.style.visibility = "none";
     isModalOpen = false;
   } else {
-    modal.style.display = "flex";
+    modal.style.visibility = "flex";
     isModalOpen = true;
   }
 }
